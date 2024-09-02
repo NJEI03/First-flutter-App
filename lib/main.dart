@@ -15,22 +15,22 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// The main page widget, which is a stateful widget
+
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // Scaffold provides the basic layout structure
+     
       appBar: AppBar(
-        title: Text('My First Futter App'), // Title in the app bar
+        title: Text('My First Futter App'), 
       ),
       body: Center(
-        // Center widget to center the text inside the body
+      
         child: Column(
-          // Column widget to stack text widgets vertically
-          mainAxisAlignment: MainAxisAlignment.center, // Center the column vertically
+          
+          mainAxisAlignment: MainAxisAlignment.center, 
           children: <Widget>[
-            Text('I'), // Each word is a Text widget
+            Text('I'), 
             Text('am'),
             Text('A'),
             Text('boy'),
